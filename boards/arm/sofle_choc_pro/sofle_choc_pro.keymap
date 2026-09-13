@@ -55,7 +55,7 @@
 &mo 2      &kp DOWN   &trans
            >;
 
-           sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOLUME_UP>;
+           sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
        };
 
        layer1 {
@@ -64,7 +64,7 @@
 &trans     &trans     &trans     &trans     &trans    &trans     &mmv MOVE_UP     &trans      &trans      &trans                    &trans
 &trans     &trans     &trans     &trans     &kp N1    &kp N2     &kp N3           &kp N4      &kp N5      &mmv MOVE_DOWN
 &kp N6     &kp N7     &kp N8     &kp N9     &kp N0    &kp BSPC   &trans           &kp GRAVE   &trans      &trans
-&trans     &mkp MB5   &mmv MOVE_LEFT       &kp LEFT   &kp DOWN   &kp UP           &kp RIGHT   &none       &kp BSLH  &mt LSHFT KP_EQUAL
+&trans     &mkp MB5   &mmv MOVE_LEFT       &kp LEFT   &kp DOWN   &kp UP           &kp RIGHT   &none       &kp BSLH  &mt LSHFT EQUAL
 &kp MINUS  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &mmv MOVE_RIGHT            &kp LBKT    &kp RBKT    &kp LBKT  &kp RBKT
 &kp F12    &trans     &kp C_MUTE &trans     &trans    &trans     &trans           &trans      &PWD        &trans
 &trans     &trans     &trans
